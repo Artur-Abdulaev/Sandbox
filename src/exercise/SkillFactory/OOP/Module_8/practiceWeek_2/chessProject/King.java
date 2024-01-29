@@ -22,18 +22,6 @@ public class King extends ChessPiece {
 
             return !isUnderAttack(chessBoard, toLine, toColumn);
 
-//                if (Math.abs(toLine - line) == 1 && Math.abs(toColumn - column) == 1) {
-//                    return true;
-//                }
-//                //двигаем на 1 клетку по вертикали
-//                if ((Math.abs(toLine - line) == 1 && Math.abs(toColumn - column) == 0)) {
-//                    return true;
-//                }
-//                //двигаем на 1 клетку по горизонтали
-//                if (Math.abs(toColumn - column) == 1 && Math.abs(toLine - line) == 0) {
-//                    return true;
-//                }
-//                return false;
             }
         return false;
     }
